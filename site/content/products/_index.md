@@ -7,7 +7,7 @@ description: >-
   Book With Coffee is the ultimate spot for book lovers (May be coffee and book lovers) who want to find new books, read blogs about books, reviews.
 intro:
   blurbs:
-    - image: /img/illustrations-book.svg
+    - image: /img/img_323457.svg
       text: >
         Here you can find books from different categories, topics, languages as per your choice. Even if you are intrested you can participate to write review blogs of books which you have read.
     - image: /img/illustrations-coffee-gear.svg

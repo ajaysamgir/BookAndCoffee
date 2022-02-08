@@ -7,42 +7,27 @@ description: >-
   Book With Coffee is the ultimate spot for book lovers (May be coffee and book lovers) who want to find new books, read blogs about books, reviews.
 intro:
   blurbs:
-    - image: /img/img_323457.svg
+    - image: /img/img_323457.png
       text: >
-        Here you can find books from different categories, topics, languages as per your choice. Even if you are intrested you can participate to write review blogs of books which you have read.
-    - image: /img/illustrations-coffee-gear.svg
+        Here you can find books from different categories, topics, languages as per your choice. Even if you are intrested you can participate to write review blogs of books which you have
+    - image: /img/books-1673578_1280.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        We offer older edition of books which rarely available in the world. Our blogs helps you to get overview of books, readers views on book and may add more intrest in you to order and enjoy your reading with copy.
+        you’ll find a books to fall in love with in our shop.
     - image: /img/illustrations-tutorials.svg
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/illustrations-meeting-space.svg
+        Love a great cup of coffee, but feeling alone to drink it? Make a 
+        quick order of any book listed below. 
+
+        Email us or call us for more details.
+    - image: /img/illustrations-tutorials.svg
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
+        We believe that good books has the power to show path of happiness, motivation in life.
+        
+  main:
+  heading: There is no friend as loyal as book!
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    When you want to start your day with cup of coffee and books we are here to help you to find the topics as per your intrest and never feel alone or empty when you have great monrning in relax day.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
@@ -53,14 +38,12 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: Dr. Seuss
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      The more that you read, the more things you will know. the more place you will go.
+  - author: Mason Cooley
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+     Reading give us someplace to go when we have to stay where we are.
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions

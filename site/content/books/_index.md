@@ -1,7 +1,7 @@
 ---
 title: Books We Recommended !
-type: products
-image: /img/products-jumbotron.jpg
+type: books
+image: /img/books-jumbotron.jpg
 heading: What we offer
 description: >-
   Book With Coffee is the ultimate spot for book lovers (May be coffee and book lovers) who want to find new books, read blogs about books, reviews.
@@ -46,9 +46,8 @@ testimonials:
      Reading give us someplace to go when we have to stay where we are.
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Books from our store
+  heading: Books from our store address
   description: >-
-    Here is link of books we have given, you can order online from click to link or visit to the Store from Bellow address:
     Phone - 9876543210
     Store - Books with Coffee
     Street - ABC Downtown, Shop No. 333

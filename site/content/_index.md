@@ -8,7 +8,7 @@ blurb:
 intro:
     heading: "What we offer"
     text: "Book with Coffee is the ultimate spot for book lovers (we offer cup of coffee absolutely free if you visit to our store and purchase membership) who want to read different type of books in different languages. We take reviews from readers and post it to our website which provides more inputs to customer who is intrusted to read the book. we’re glad to help and share knowledge to anyone."
-products:
+books:
     - image: /img/img_323457.png
       text: >
         Here you can find books from different categories, topics, languages as per your choice. Even if you are interested you can participate to write review blogs of books which you have

@@ -72,20 +72,20 @@ export default class PostPreview extends React.Component {
       		<p className="mw6">{entry.getIn(['data', 'pricing', 'description'])}</p>
 
       		<div className="flex-ns mhn2-ns mw7">
-            {(entry.getIn(['data', 'pricing', 'plans']) || []).map((plan, index) => <div className="w-33-ns ph2" key={index}>
+            {(entry.getIn(['data', 'pricing', 'books']) || []).map((book, index) => <div className="w-33-ns ph2" key={index}>
               <div className="ph2">
 
-              	<h3 className="b f5 grey-3 tc lh-title mb3">{plan.get('plan')}</h3>
+              	<h3 className="b f5 grey-3 tc lh-title mb3">{book.get('book')}</h3>
 
               	<p className="primary f1 b tc lh-title center">
-              		<span className="f4">$</span>{plan.get('price')}
+              		<span className="f4">$</span>{book.get('price')}
               	</p>
 
--              	<p className="b">{plan.get('description')}</p>
+-              	<p className="b">{book.get('description')}</p>
 
               	<ul>
-                  {(plan.get('items') || []).map((item, index) => <li key={index}>
-                    <p className={index + 1 !== plan.get('items').size ? "pb2 mb2 divider-grey" : null}>{item}</p>
+                  {(book.get('items') || []).map((item, index) => <li key={index}>
+                    <p className={index + 1 !== book.get('items').size ? "pb2 mb2 divider-grey" : null}>{item}</p>
                   </li>)}
               	</ul>
 

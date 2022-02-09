@@ -16,8 +16,8 @@ products:
       text: >
         We offer older edition of books which rarely available in the world. Our blogs helps you to get overview of books, readers views on book and may add more interest in you to order and enjoy your reading with copy.
         you’ll find a books to fall in love with in our shop.
-values:
-    heading: Our values
+authors:
+    heading: Authors
     text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
 ---
 

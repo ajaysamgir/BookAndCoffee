@@ -14,29 +14,7 @@ intro:
       text: >
         We offer older edition of books which rarely available in the world. Our blogs helps you to get overview of books, readers views on book and may add more interest in you to order and enjoy your reading with copy.
         you’ll find a books to fall in love with in our shop.
-    - image: /img/illustrations-tutorials.svg
-      text: >
-        Love a great cup of coffee, but feeling alone to drink it? Make a 
-        quick order of any book listed below or visit our store to enjoy free cup of coffee with good reads!
 
-        Email us or call us for more details.
-    - image: /img/illustrations-tutorials.svg
-      text: >
-        We believe that good books has the power to show path of happiness, motivation in life.
-        
-  main:
-  heading: There is no friend as loyal as book!
-  description: >
-    When you want to start your day with cup of coffee and books we are here to help you to find the topics as per your interest and never feel alone or empty when you have great morning in relax day.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 testimonials:
   - author: Dr. Seuss
     quote: >-
@@ -44,23 +22,46 @@ testimonials:
   - author: Mason Cooley
     quote: >-
      Reading give us someplace to go when we have to stay where we are.
+
 full_image: /img/products-full-width.jpg
+
 pricing:
-  heading: Books from our store address
+  heading: Available Books in Store
   description: >-
-    Phone - 9876543210
-    Store - Books with Coffee
-    Street - ABC Downtown, Shop No. 333
-    Landmark - Near Honda Showroom, Kasaba peth
-    Pune, 411111. 
-  books:
-    - description: The Complete Novels of Sherlock Holmes 
+    We make it easy to make great coffee a part of your life. Choose one of our
+    monthly subscription plans to receive great coffee at your doorstep each
+    month. Contact us about more details and payment info.
+  plans:
+    - description: Mud, Sweat and Tears
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      book: The Complete Novels of Sherlock Holmes
+        - Autobiography of Famous TV actor Bear Grylls (Man vs Wild Fame) Bear Grylls is a man who has always loved adventure. he spent months hiking in the Himalayas as he considered joining the Indian Army. he passed SAS selection, accident, climbing Everest, TV adventures,
+        - Pages 700
+        - Discount applicable
+      plan: Bear Grylls 
+      image: /img/books/mud-sweat-tears.jpg
       price: '50'
+    - description: The Alchemist
+      items:
+        - This story is about an Andalusian shepherd boy named Santiago, who travels from his homeland in Spain to the Egyptian desert in search of a treasure.
+        - Pages 180
+        - Discount Not Applicable
+      plan: Paulo Coelho
+      image: /img/books/alkimest.jpg
+      price: '80'
+    - description: Animal Farm
+      items:
+        - Animal Farm is Orwell’s classic satire of the Russian Revolution - an account of the bold struggle, initiated by the animals, that transforms Mr. Jones’s Manor Farm into Animal Farm
+        - Pages 220
+        - Discount Not Applicable
+      plan: George Orwell
+      image: /img/books/animal-farm.jpg
+      price: '30'
+    - description: The Alchemist
+      items:
+        - This story is about an Andalusian shepherd boy named Santiago, who travels from his homeland in Spain to the Egyptian desert in search of a treasure.
+        - Pages 180
+        - Discount Not Applicable
+      plan: Paulo Coelho
+      image: /img/books/alkimest.jpg
+      price: '80'
 ---
-
-

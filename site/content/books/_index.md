@@ -35,33 +35,57 @@ pricing:
     - description: Mud, Sweat and Tears
       items:
         - Autobiography of Famous TV actor Bear Grylls (Man vs Wild Fame) Bear Grylls is a man who has always loved adventure. he spent months hiking in the Himalayas as he considered joining the Indian Army. he passed SAS selection, accident, climbing Everest, TV adventures,
-        - Pages 700
+        - Pages - 700
         - Discount applicable
       plan: Bear Grylls 
       image: /img/books/mud-sweat-tears.jpg
-      price: '50'
+      price: '10.50'
     - description: The Alchemist
       items:
         - This story is about an Andalusian shepherd boy named Santiago, who travels from his homeland in Spain to the Egyptian desert in search of a treasure.
-        - Pages 180
+        - Pages - 180
         - Discount Not Applicable
       plan: Paulo Coelho
       image: /img/books/alkimest.jpg
-      price: '80'
+      price: '8.99'
     - description: Animal Farm
       items:
         - Animal Farm is Orwell’s classic satire of the Russian Revolution - an account of the bold struggle, initiated by the animals, that transforms Mr. Jones’s Manor Farm into Animal Farm
-        - Pages 220
+        - Pages - 220
         - Discount Not Applicable
       plan: George Orwell
       image: /img/books/animal-farm.jpg
-      price: '30'
-    - description: The Alchemist
+      price: '7.99'
+    - description: The Blue Hour
       items:
-        - This story is about an Andalusian shepherd boy named Santiago, who travels from his homeland in Spain to the Egyptian desert in search of a treasure.
-        - Pages 180
+        - The Blue Hour - two love affairs and two summers, 75 years apart. Damaged by a toxic relationship, Ava Westmorland flees the ruins of her life in London for a carer's job in a Cornish village. She hopes a combination of countryside and coast will heal her shattered heart. But...
+        - Pages - 180
         - Discount Not Applicable
-      plan: Paulo Coelho
+      plan: M.J. Greenwood
       image: /img/books/alkimest.jpg
-      price: '80'
+      price: '3.50'
+    - description: Miss Eliza's English Kitchen
+      items:
+        - In a novel perfect for fans of Hazel Gaynor’s A Memory of Violets and upstairs-downstairs stories, Annabel Abbs, the award-winning author of The Joyce Girl, returns with the brilliant real-life story of Eliza Acton and her assistant as they revolutionized British cooking and cookbooks around the world.
+        - Pages - 400
+        - Discount Not Applicable
+      plan: Annabel Abbs
+      image: /img/books/miss-elizas-english-kitchen.jpg
+      price: '14.50'
+    - description: The Sweetness of Water
+      items:
+        - In the spirit of The Known World and The Underground Railroad, a profound debut about the unlikely bond between two freedmen who are brothers and the Georgia farmer whose alliance will alter their lives, and his, forever.
+        - Pages - 368
+        - Discount Not Applicable
+      plan: Nathan Harris
+      image: /img/books/the-sweetness-of-water.jpg
+      price: '11.99'
+    - description: The Secret Life of Albert Entwistle
+      items:
+        - Albert Entwistle is a private man with a quiet, simple life. He lives alone with his cat Gracie. And he’s a postman. At least he was a postman until, three months before his sixty-fifth birthday, he receives a letter from the Royal Mail thanking him for decades of service and stating he is being forced into retirement.
+        - Pages - 400
+        - Discount Not Applicable
+      plan: Matt Coin
+      image: /img/books/the-secret-life-of-albert-entwistle.jpg
+      price: '12.00'
 ---

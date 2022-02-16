@@ -2,12 +2,12 @@ import React from "react";
 
 const ContactEntry = ({heading, text}) =>
   <div>
-    <h4 className="f4 b lh-title mb2 primary">{ heading }</h4>
+    <h4 className="f3 b lh-title mb2 primary">{ heading }</h4>
     <p>{ text }</p>
   </div>;
 
 const ContactEntries = ({data}) => data && data.length > 0
-    ? <div className="flex-ns mb3">
+    ? <div>
       {data.map(({heading, text}) => <ContactEntry heading={heading} text={text} />)}
     </div>
     : "";

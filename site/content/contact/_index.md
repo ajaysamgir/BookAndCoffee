@@ -2,12 +2,12 @@
 title: "Contact"
 logo: "/img/logo.svg"
 contact_entries:
-  - heading: Phone
+  - heading: Call us 
     text: "9876543210"
-  - heading: Email
+  - heading: Send us Email
     text: "bookwithcoffee@gmail.com"
-  - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
+  - heading: Visit to Store
+    text: "3153 Lynn Avenue, South Pune, Maharashtra, 94080 (India)"
   - heading: Working hours
     text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
 ---

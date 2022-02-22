@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 logo: "/img/logo.svg"
+image: "/img/me-with-book.jpg"
 contact_entries:
   - heading: Call us 
     text: "9876543210"

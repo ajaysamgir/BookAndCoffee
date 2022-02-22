@@ -28,8 +28,7 @@ full_image: /img/products-full-width.jpg
 pricing:
   heading: Available Books in Store
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
+    We make it easy to make great books a part of your life. Choose one of our monthly subscription plans to receive great coffee at your doorstep each 
     month. Contact us about more details and payment info.
   plans:
     - description: Mud, Sweat and Tears
@@ -46,7 +45,7 @@ pricing:
         - Pages - 180
         - Discount Not Applicable
       plan: Paulo Coelho
-      image: /img/books/alkimest.jpg
+      image: /img/books/the-alchemist.jpg
       price: '8.99'
     - description: Animal Farm
       items:
@@ -62,7 +61,7 @@ pricing:
         - Pages - 180
         - Discount Not Applicable
       plan: M.J. Greenwood
-      image: /img/books/alkimest.jpg
+      image: /img/books/the-alchemist.jpg
       price: '3.50'
     - description: Miss Eliza's English Kitchen
       items:

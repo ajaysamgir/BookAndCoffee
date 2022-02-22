@@ -5,7 +5,7 @@ import Jumbotron from "./components/jumbotron";
 
 export default class PostPreview extends React.Component {
   render() {
-    const {entry, getAsset} = this.props;
+    const { entry, getAsset } = this.props;
     let image = getAsset(entry.getIn(["data", "image"]));
 
     // Bit of a nasty hack to make relative paths work as expected as a background image here
@@ -23,13 +23,13 @@ export default class PostPreview extends React.Component {
 
           <div className="flex-ns flex-wrap mhn2-ns mb3">
             {(entry.getIn(["data", "intro", "blurbs"]) || []).map((blurb, index) => <div className="ph2-ns w-50-ns mb4" key={index}>
-              <img src={blurb.get("image") && getAsset(blurb.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
+              <img src={blurb.get("image") && getAsset(blurb.get("image"))} alt="" className="center db mb3" style={{ width: "240px" }} />
               <p>{blurb.get("text")}</p>
             </div>)}
           </div>
         </div>
       </div>
-      
+
       <div className="mw7 center">
         <div className="mw6 ph3 mb3">
           <h3 className="f3 b lh-title mb2">{entry.getIn(["data", "main", "heading"])}</h3>
@@ -41,27 +41,27 @@ export default class PostPreview extends React.Component {
 
         <div className="flex flex-wrap mhn1">
           <div className="w-100 w-50-ns ph1-ns">
-            <img src={getAsset(entry.getIn(["data", "main", "image1", "image"]))}/>
+            <img src={getAsset(entry.getIn(["data", "main", "image1", "image"]))} />
           </div>
 
           <div className="w-100 w-50-ns ph1-ns">
-            <img src={getAsset(entry.getIn(["data", "main", "image2", "image"]))}/>
+            <img src={getAsset(entry.getIn(["data", "main", "image2", "image"]))} />
           </div>
 
           <div className="w-100 ph1-ns">
-            <img src={getAsset(entry.getIn(["data", "main", "image3", "image"]))}/>
+            <img src={getAsset(entry.getIn(["data", "main", "image3", "image"]))} />
           </div>
         </div>
       </div>
 
       <div className="pb4">
         {(entry.getIn(['data', 'testimonials']) || []).map((testimonial, index) => <div className="center mb3 ph3" key={index}>
-        	<blockquote className="bg-grey-1 primary pa3 mb3 br1 b mw6 center">
-        		<p className="f4 mb0">“{testimonial.get('quote')}”</p>
-        		<cite className="tr db grey-3">{testimonial.get('author')}</cite>
-        	</blockquote>
+          <blockquote className="bg-grey-1 primary pa3 mb3 br1 b mw6 center">
+            <p className="f4 mb0">“{testimonial.get('quote')}”</p>
+            <cite className="tr db grey-3">{testimonial.get('author')}</cite>
+          </blockquote>
         </div>)}
-      </div> 
+      </div>
 
       <div className="bg-off-white pv4 ph3">
         <div className="mw7 center">
@@ -75,19 +75,19 @@ export default class PostPreview extends React.Component {
                 <p className="primary f1 b tc lh-title center">
                   <span className="f4">${plan.get('price')}</span>
                 </p>
-            	  <p className="b">{plan.get('description')}</p>
+                <p className="b">{plan.get('description')}</p>
                 <ul>
                   {(plan.get('items') || []).map((item, index) => <li key={index}>
                     <p className={index + 1 !== plan.get('items').size ? "pb2 mb2 divider-grey" : null} >{item}</p>
                   </li>)}
                 </ul>
-                <img src={plan.get("image") && getAsset(plan.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
+                <img src={plan.get("image") && getAsset(plan.get("image"))} alt="" className="center db mb3" style={{ width: "240px" }} />
               </div>
             </div>)}
-          </div>              
+          </div>
         </div>
-      </div>   
+      </div>
       <img src={getAsset(entry.getIn(['data', 'full_image']))} alt="" className="db w-100" />
-    </div>   
+    </div>
   }
 }
